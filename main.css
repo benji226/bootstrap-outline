@@ -1,0 +1,36 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.max-viewport {
+ min-height:100vh;
+}
+
+text-underline{
+    width: 100px;
+    border: 1px solid #14fff;
+    margin: 0 auto;
+}
+
+.about-image,
+#fuller,
+#progress {
+    background: url(pexels-photo-570092.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+@media only screen and @media only screen and (max-width: 750px) {
+    
+    section{
+        margin-top:20px;
+    }
+}
+@media only screen and (min-width: 750px)  {
+    section{
+        margin-top:20px;
+    }
+}
